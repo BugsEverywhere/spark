@@ -2856,18 +2856,18 @@
                 <goal>add-source</goal>
               </goals>
             </execution>
-            <execution>
-              <id>scala-compile-first</id>
-              <goals>
-                <goal>compile</goal>
-              </goals>
-            </execution>
-            <execution>
-              <id>scala-test-compile-first</id>
-              <goals>
-                <goal>testCompile</goal>
-              </goals>
-            </execution>
+<!--            <execution>-->
+<!--              <id>scala-compile-first</id>-->
+<!--              <goals>-->
+<!--                <goal>compile</goal>-->
+<!--              </goals>-->
+<!--            </execution>-->
+<!--            <execution>-->
+<!--              <id>scala-test-compile-first</id>-->
+<!--              <goals>-->
+<!--                <goal>testCompile</goal>-->
+<!--              </goals>-->
+<!--            </execution>-->
             <execution>
               <id>attach-scaladocs</id>
               <phase>verify</phase>
